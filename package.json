@@ -1,0 +1,11 @@
+{
+  "name": "fetch-wp-posts",
+  "version": "1.0.0",
+  "description": "api to fetch wordpress posts because they can't be bordered to do ssl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
