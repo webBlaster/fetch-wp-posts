@@ -1,13 +1,14 @@
-const express = require("express");
-const bodyParser = require("body-parser");
-const fetch = require("node-fetch");
+import express from "express";
+import bodyParser from "body-parser";
+import fetch from "node-fetch";
 
 const app = express();
-const port = 3000;
+const port = 9000;
 
 app.use(bodyParser.json());
 
-const wordpressEndpoint = "https://yourwordpresssite.com/wp-json/wp/v2/posts";
+const wordpressEndpoint =
+  "http://www.metaphorlaboratory.com.dream.website/wp-json/wp/v2/posts";
 
 // Fetch all WordPress posts
 app.get("/api/posts", async (req, res) => {
